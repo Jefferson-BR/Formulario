@@ -226,6 +226,9 @@ footer p a:hover{
     .box-check label.text-custom{
         display: flex;
     }
+    .box-selection-1{
+     width: 100%;   
+    }
     #experiencia, option{
         max-width: 95px;
         min-width: 95px;
