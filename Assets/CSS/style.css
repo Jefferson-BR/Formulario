@@ -244,6 +244,9 @@ footer p a:hover{
     .box-check label.text-custom{
         display: flex;
     }
+    .box-selection-1{
+     width: 100%;   
+    }
     #experiencia, option{
         max-width: 95px;
         min-width: 95px;
@@ -262,6 +265,9 @@ footer p a:hover{
     }
     .input-box label, strong{
         font-size: 1.2rem;
+    }
+    .box-selection-1{
+     width: 100%;   
     }
     .box-selection-1, .box-selection-2 label > strong{
         font-size: 1.2rem;
