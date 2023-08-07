@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jefferson Barbosa">
+    <meta name="description" content="Faça login com a sua conta ou crie uma conta gratuita">
+    <link rel="stylesheet" href="Assets/CSS/style.css" type="text/css">
+    <link rel="shortcut icon" href="Assets/Favicon/Form-icon.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <!-- Titulo do Formulário-->
+            <div class="form-box login">
+                <h2>Formulário de Pesquisa</h2>
+            <!-- Titulo do Formulário-->
+
+            <!-- Formulário -->
+                <form action="#" method="#">
+
+                <!-- Input's -->
+                <div class="input-box">
+                    <input type="text" name="nome" autocomplete="on" required>
+                    <label>Nome</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="sobrenome" autocomplete="on" required>
+                    <label>Sobrenome</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" autocomplete="on" required>
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="telefone" id="telefone" autocomplete="on" required>
+                    <label for="telefone">Telefone</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="endereco" autocomplete="on" required>
+                    <label>Endereço</label>
+                </div>
+                <div class="box-selection-1">
+                    <label class="margin-custom">
+                        <strong>De qual lado da aplicação você desenvolve ?</strong>
+                    </label>
+                    <label>
+                        <input type="radio" name="frontend" value="frontend">&nbsp;Front-End
+                    </label>
+                    <label>
+                        <input type="radio" name="backend" value="backend">&nbsp;Back-End
+                    </label>
+                    <label>
+                        <input type="radio" name="fullstack" value="fullstack">&nbsp;Fullstack
+                    </label>
+                </div>
+                <!-- Fim Input's -->
+                
+                <!-- Seleção de Experiência -->
+                <div class="box-selection-2">
+                    <label class="margin-custom">
+                        <strong>experiência</strong>
+                    </label>
+                    <select id="experiencia" name="experiencia">
+                        <option selected disabled>Selecione</option>
+                        <option>Novato</option>
+                        <option>Experiente</option>
+                        <option>Profissional</option>
+                    </select>
+                </div>
+                <!-- Fim Seleção de Experiência -->
+                
+                <!-- Seleção de tecnologias -->
+                <div class="box-check">
+                <label>
+                    <strong>
+                        <p>Selecione as tecnologias que você trabalha ou estuda:</p>
+                    </strong>
+                </label>
+                <br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                <label for="tecnologia1" class="text-custom">HTML</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                <label for="tecnologia2" class="text-custom">CSS</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JAVASCRIPT">
+                <label for="tecnologia3" class="text-custom">JavaScript</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PYTHON">
+                <label for="tecnologia4" class="text-custom">Python</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="PHP">
+                <label for="tecnologia5" class="text-custom">PHP</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="JAVA">
+                <label for="tecnologia6" class="text-custom">Java</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="C">
+                <label for="tecnologia7" class="text-custom">C</label>
+                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="C++">
+                <label for="tecnologia8" class="text-custom">C++</label>
+                <input type="checkbox" id="tecnologia9" name="tecnologia9" value="C#">
+                <label for="tecnologia9" class="text-custom">C#</label>
+                <input type="checkbox" id="tecnologia10" name="tecnologia10" value="RUBY">
+                <label for="tecnologia10" class="text-custom">Ruby</label>
+                </div>
+                <button type="submit" class="btn" name="enviar">Enviar</button>
+                <!-- Fim Seleção de tecnologias -->
+
+                </form>
+                <!-- Fim do Formulário -->
+            </div>
+        </div>
+    </main>
+    <script src="Assets/JS/main.js"></script>
+    <footer>
+        <p>Site Criado por <a href="#" target="_blank" rel="follow">Jefferson Barbosa</a></p>
+    </footer>
+</body>
+</html>
